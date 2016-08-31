@@ -6,6 +6,8 @@ This repository contains the presentation slides I prepared for my PhD dissertat
 	
 presented at Ohio State University on July 15, 2015.
 
+To see the presentation, click [here](https://randall-romero.github.io/phd-defense/).
+
 
 The slides were prepared using [reveal-js]( https://github.com/hakimel/reveal.js.git)
 
