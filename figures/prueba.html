@@ -1,0 +1,353 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Randall Romero-Aguilar" />
+  <meta name="author" content="Randall Romero-Aguilar Mario J. Miranda  image" />
+  <title>Food Security for Whom?</title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<div id="header">
+<h1 class="title">Food Security for Whom?<br /></h1>
+<h2 class="author">Randall Romero-Aguilar</h2>
+<h2 class="author">Randall Romero-Aguilar Mario J. Miranda<br /> <img src="OSU.png" alt="image" /></h2>
+<h3 class="date">2014 AAEA Annual Meeting<br />Minneapolis, MN, July 27-29, 2014</h3>
+</div>
+<p>[plain,noframenumbering]</p>
+<h1 id="introduction">Introduction</h1>
+
+
+<h2 id="the-problem">The problem</h2>
+
+
+<h3 id="the-problem-1">The Problem</h3>
+<p>Despite rising production, food prices are higher and increasingly volatile…</p>
+<p><img src="FAO-cereals-price-BEAMER" alt="image" /><br /></p>
+<p>[label=crisis-consequences]</p>
+
+
+<h3 id="and-its-consequences">…and its consequences</h3>
+<ul>
+<li><p>&lt;1&gt; More price uncertainty <span class="math"> ⇒ </span> increase in risk for farmers.</p></li>
+<li><p>&lt;2&gt; Increase in hunger among poor net food buyers …</p>
+<ul>
+<li><p>&lt;2&gt; who account for 88% of rural and 97% of urban poor households.</p></li>
+</ul></li>
+<li><p>&lt;3&gt; More than 60 food riots in 30 different countries.</p></li>
+</ul>
+<p>&lt;3&gt;<span> <img src="pic-food-riots" alt="image" /> </span></p>
+<p>[label=hunger-estimates]</p>
+
+
+<h3 id="undernourished-people-in-the-world">Undernourished people in the world</h3>
+<p>…causing more (?) people to suffer hunger…</p>
+<p><embed src="fig-hunger-estimates.eps" /></p>
+<p>[label=frame-riots]</p>
+
+
+<h3 id="food-riots">Food riots</h3>
+<p>…and in turn leading to increasing violence.</p>
+<p><embed src="fig-Lagi-et-al-food-riots.eps" /></p>
+
+
+<h2 id="food-reserves">Food reserves</h2>
+
+
+<h3 id="food-reserve-as-a-solution">Food reserve as a solution?</h3>
+<p>If a poor grain-importing country decides to operate a grain reserve to stabilize prices…</p>
+<ul>
+<li><p>what is the ultimate target: welfare vs. hunger</p></li>
+<li><p>what is the optimal size of the reserve?</p></li>
+<li><p>is it better to use a financial asset?</p></li>
+<li></li>
+</ul>
+<p><img src="pic-silos2" alt="image" /></p>
+
+
+<h3 id="motivation-is-grain-storage-a-good-idea">Motivation: Is grain storage a good idea?</h3>
+<p>The logic behind grain storage is simple:</p>
+<ul>
+<li><p>&lt;1-3&gt; Seven years of abundance followed by seven years of famine…</p></li>
+<li><p>&lt;2-3&gt; What if country never has years of abundance?</p></li>
+<li><p>&lt;3&gt; Opportunity cost of storing grain is very high!</p></li>
+</ul>
+<p>&lt;4-&gt;<span>To answer this, a model should quantify </span></p>
+<ul>
+<li><p>&lt;5-&gt; the increase on national hunger induced by an international crisis;</p></li>
+<li><p>&lt;6-&gt; to what extent a reserve alleviates this increase, and at .</p></li>
+</ul>
+
+
+
+<h1 id="the-model">The model</h1>
+<h2 id="main-equations">Main equations</h2>
+<p>[label=essay1-key]</p>
+
+
+<h3 id="key-features-of-the-model">Key features of the model</h3>
+<ul>
+<li><p>&lt;1&gt; Nested utility: two goods, two food ingredients</p></li>
+<li><p>&lt;2&gt; Constant demand elasticities</p></li>
+<li><p>&lt;3&gt; Substitution between ingredients</p></li>
+<li><p>&lt;4&gt; Intertemporal, two grain prices</p></li>
+<li><p>&lt;5&gt; Heterogeneous households: log-logistic income distribution</p></li>
+<li><p>&lt;6&gt; Log-logistic food consumption</p></li>
+</ul>
+<p>&lt;1&gt;</p>
+<p>[scale = 1.5,line width = 1pt] (a)<span><strong>Utility <span class="math"><em>U</em>(<em>f</em><sub><em>i</em></sub>, <em>n</em><sub><em>i</em></sub>)</span></strong></span> [grow = down] [SteelBlue] child <span>node [color = white, fill = SteelBlue,text=white,draw,rounded corners] (b) <span><strong>food <span class="math"><em>f</em><sub><em>i</em></sub></span></strong></span> [grow = down] child<span>node [color = white, fill = SteelBlue!40!,text=black,draw,rounded corners] <span>grain <span class="math"><em>x</em><sub><em>g</em></sub></span></span></span> child [level distance = 15mm] <span>node [color = white, fill = SteelBlue!40!,text=black,draw,rounded corners] <span>vegetable <span class="math"><em>x</em><sub><em>v</em></sub></span></span></span> </span> child <span>node[color = white, fill = SteelBlue,text=white,draw,rounded corners] (c) <span><strong>else <span class="math"><em>n</em><sub><em>i</em></sub></span></strong></span></span>;</p>
+<p>&lt;2&gt;</p>
+<p>[scale = 2.0,line width = 1pt] (b) <span><strong>food</strong></span> [grow = down] child<span>node [color = white, fill = SteelBlue!40!,text=black,draw,rounded corners] <span><span class="math"> = <em>d</em><strong>price</strong><sup> − <em>α</em></sup> <strong>income</strong><sup><em>η</em></sup></span></span></span>;</p>
+<p>&lt;3&gt;</p>
+<p>[scale = 2.0,line width = 1pt] (b) <span><strong>food <span class="math"><em>f</em><sub><em>i</em></sub></span></strong></span> [grow = down] child<span>node [color = white, fill = SteelBlue!40!,text=black,draw,rounded corners] <span><span class="math">$ \left[\theta \textbf{grain}^\frac{\sigma-1}{\sigma}+(1-\theta)\textbf{veget.}^\frac{\sigma-1}{\sigma}\right]^\frac{\sigma}{\sigma-1}$</span></span></span>;</p>
+
+
+<h3 id="hunger-changes-in-response-to-food-prices">Hunger changes in response to food prices</h3>
+<p><br /><span class="math">$$\Gamma(P) = \left[1+\left(\frac{cP^\alpha (G\pi)^\eta}{\zeta Y^\eta\sin^\eta(G\pi)}\right)^{1/{G\eta}}\right]^{-1}$$</span><br /></p>
+<p><img src="fig-Food-Distribution" alt="image" /></p>
+<p>[label=essay1-gov]</p>
+
+
+<h3 id="government-problem-objectives-and-tools">Government problem: objectives and tools</h3>
+<p>Government runs a grain stockpile to deal with price fluctuations. +=[remember picture]</p>
+<p>= [baseline=-.5ex]</p>
+<ul>
+<li><p>Two alternative objectives: (n1) ; welfare vs. hunger</p></li>
+<li><p>One policy tool: (n2) ; tariff on grain imports</p></li>
+<li><p>Two state variables: (n3) ; initial stock and grain price</p></li>
+</ul>
+<p><br /><span class="math">$$\begin{aligned}
+V\left(
+        \tikz[baseline]{
+            \node[fill=blue!20,anchor=base] (t1)
+            {$ s,p_g^*$};
+        }  \right) &amp;=  \max_{
+        \tikz[baseline]{
+            \node[fill=red!20,anchor=base] (t2)
+            {$\tau$};}
+        } \left\{
+        \tikz[baseline]{
+            \node[fill=green!20,anchor=base] (t3)
+            {$r(\tau,p_g^*)$};
+        } + \delta \operatorname{\mathbb{E}}V\left(s',{p_{g}^*}'\right)   \right\} \\ \\
+       \uncover&lt;3-&gt;{
+       \text{subject to  } \quad
+        \tikz[baseline]{
+                   \node[fill=blue!20,anchor=base] (t5)
+       {$s'$};
+       }  &amp; = (1-\phi)\left[s +\tfrac{1}{p_g^*} \Upsilon\left(
+        \tikz[baseline]{
+                   \node[fill=red!20,anchor=base] (t4){$\tau$};},
+                   p_g^*\right) \right] \geq 0 \\ \\
+        \pi_{ij} &amp;= Pr\left({p_{g}^*}'= p_j\quad | \quad
+                \tikz[baseline]{
+                    \node[fill=blue!20,anchor=base] (t6)
+                    {$p_{g}^*$};
+                } = p_i\right)}\end{aligned}$$</span><br /></p>
+<p>[overlay] &lt;1&gt; (n1) edge [out=-90, in=90] (t3); &lt;2&gt; (n2) edge [out=-90, in=180] (t2); &lt;3&gt; (t2) edge [out=-90, in=90] (t4); &lt;3&gt; (n3) edge [out=-90, in=90] (t1); &lt;3&gt; (t1) edge [out=-90, in=90] (t5); &lt;3&gt; (t5) edge [out=-90, in=90] (t6);</p>
+<p>[label=reward]</p>
+
+
+<h3 id="reward-function-rtaup-by-objective">Reward function <span class="math"><em>r</em>(<em>τ</em>, <em>P</em>)</span>, by objective</h3>
+<p><span>X[-1c,m]X[2c,m]</span> Objective, <span class="math"><em>V</em></span> &amp; Reward function, <span class="math"><em>r</em>(<em>τ</em>,  <em>p</em><sub><em>g</em></sub><sup> * </sup>)</span><br />Hunger, <span class="math">Γ</span> &amp; <span class="math">$
+            \frac{1}{1-\rho}\left[1-\Gamma(\tau,p_g^*)\right]^{1-\rho} $</span><br /><br />Utility, <span class="math">$\operatorname{\mathbb{S}}(v_i)$</span> &amp;</p>
+<p><span class="math">$
+            \frac{1}{1-\rho}\operatorname{\mathbb{S}}\left[v(\tau,p_g^*)\right]^{1-\rho}  $</span><br /></p>
+
+
+<h2 id="solution-and-parameterization">Solution and parameterization</h2>
+
+
+<h3 id="solving-the-model-the-food-crisis-in-haiti">Solving the model: The food crisis in Haiti</h3>
+<p>Calibration of parameters: Haiti</p>
+<ul>
+<li><p><span class="math">Γ<sub>2011</sub> = 44.5%</span></p></li>
+<li><p>Imports <span class="math"> ≈ 70%</span> of cereals consumed</p></li>
+<li><p><span class="math"><em>p</em><sub><em>g</em></sub><sup> * </sup></span> increased 85% during crisis</p></li>
+</ul>
+<p>&lt;2&gt;</p>
+<p>Food Crisis in Haiti:</p>
+<ul>
+<li><p>Dec2007-Mar2008: rice price doubles</p></li>
+<li><p>Early April 2008: violent protests in Port-au-Prince</p></li>
+<li><p>April 12: Prime Minister Jacques Adouard Alexis ousted</p></li>
+</ul>
+<p>&lt;2&gt;[width=]<span>Figures/pic-haiti-riots</span><br /></p>
+
+
+<h3 id="food-reserve-in-haiti">Food reserve in Haiti</h3>
+<ul>
+<li><p>&lt;1-&gt; Jul2013: gov’t begins construction of reserve, 35.000 tonnes</p>
+<p><img src="Haiti_building_reserve" alt="image" /></p></li>
+<li><p>&lt;2&gt; “The construction of this strategic reserve reflects the desire of my Government to promote national agricultural production, stabilize the market price of commodities and combat food insecurity. Indeed, the fight against hunger and extreme poverty constitutes the main pillars of government action.”</p></li>
+</ul>
+<p>&lt;2&gt;</p>
+
+
+<h3 id="solving-the-model-numerical-methods">Solving the model: Numerical methods</h3>
+<ul>
+<li><p>&lt;1&gt; Numerical solution:</p>
+<ul>
+<li><p>Collocation method (<em>dpsolve</em> solver in <em>CompEcon</em>)</p></li>
+<li><p>Chebyshev polynomials with 12 nodes for continuous state <span class="math"><em>s</em><sub><em>t</em></sub></span></p></li>
+<li><p>One discrete variable, price, with values 1.0 and 1.85</p></li>
+</ul></li>
+<li><p>&lt;2&gt; Once solved, run Monte Carlo simulations to assess performance of the policy</p></li>
+</ul>
+
+
+<h3 id="baseline-parameters">Baseline parameters</h3>
+<p>to &amp; &amp; Description<br /></p>
+<p><br /></p>
+
+
+<h1 id="results">Results</h1>
+<h2 id="without-policy">Without policy</h2>
+
+
+<h3 id="the-effects-of-crisis-without-policy">The effects of crisis, without policy</h3>
+<p>to 0.75 Variable &amp; <span class="math"><em>p</em><sub><em>L</em></sub></span> &amp; <span class="math"><em>p</em><sub><em>H</em></sub></span> &amp; <span class="math">Δ%</span><br />Price of grain &amp; 1.0 &amp; 1.85 &amp; 85.0<br />Price of food &amp; 1.0 &amp; 1.25 &amp; 25.5<br />Food consumption &amp; 50.8 &amp; 42.5 &amp; -16.4<br />Grain consumption &amp; 16.9 &amp; 11.7 &amp; -31.1<br />Vegetable consumption &amp; 33.9 &amp; 31.8 &amp; - 6.3<br /> Hunger rate (%) &amp; 44.5 &amp; 53.8 &amp; 20.8<br /></p>
+
+
+<h2 id="optimal-policy">Optimal policy</h2>
+
+
+<h3 id="storage-policy">Storage policy</h3>
+<p><img src="Storage-policy" alt="image" /></p>
+<p>[label=hunger-policy]</p>
+
+
+<h3 id="effects-of-storage-policy-on-hunger">Effects of storage policy on hunger</h3>
+<p><img src="Hunger-policy" alt="image" /></p>
+
+
+<h2 id="long-term-simulations">Long-term simulations</h2>
+
+
+<h3 id="long-term-distribution-of-grain-reserve">Long-term distribution of grain reserve</h3>
+<p>In half of the crisis, the reserve would be empty!<br /><img src="Storage-cdf" alt="image" /></p>
+
+
+<h3 id="long-term-distribution-of-hunger">Long-term distribution of hunger</h3>
+<p><img src="Hunger-histogram" alt="image" /></p>
+
+
+<h2 id="alternatives-to-a-food-reserve">Alternatives to a food reserve</h2>
+
+
+<h3 id="cash-vs.-grain-reserve">Cash vs. grain reserve?</h3>
+<ul>
+<li></li>
+</ul>
+<p><img src="Value-function-facet-baseline" alt="image" /></p>
+
+
+<h3 id="food-storage-vs.-fighting-poverty">Food storage vs. fighting poverty</h3>
+<ul>
+<li></li>
+</ul>
+<p><img src="fig-Effect-Income" alt="image" /></p>
+
+
+<h3 id="price-stabilization-vs.-safety-net">Price stabilization vs. safety net?</h3>
+<ul>
+<li></li>
+</ul>
+<p><img src="fig-Effect-Inequality" alt="image" /></p>
+
+
+<h1 id="conclusions">Conclusions</h1>
+
+<h3 id="conclusions-1">Conclusions</h3>
+<p>The optimal grain storage policy…</p>
+<ul>
+<li><p>&lt;1&gt; would not fully stabilize food prices.</p></li>
+<li><p>&lt;2&gt; would not prevent extreme hunger, yet it would reduce its frequency.</p></li>
+<li><p>&lt;3&gt; is very sensitive to key parameters (price process, storage costs)</p></li>
+<li><p>&lt;4&gt; might be outperformed by policies that attack poverty directly.</p></li>
+<li><p>&lt;5&gt; in many cases, no better than accumulating financial assets.</p></li>
+<li><p>&lt;6&gt; is more “active” when objective is avoiding extreme hunger.</p></li>
+</ul>
+
+
+<h1 id="appendix" class="unnumbered">Appendix</h1>
+<p>[fragile]</p>
+
+<h3 id="references">References</h3>
+<p>[label=frame-causes-crisis]</p>
+
+
+<h3 id="possible-causes-of-high-food-prices">Possible causes of high food prices</h3>
+<p>Affecting supply:</p>
+<ol>
+<li><p>rising oil prices;</p></li>
+<li><p>declining stocks and reserves;</p></li>
+<li><p>regional catastrophic weather;</p></li>
+<li><p>export restrictions;</p></li>
+<li><p>decline in productivity and R&amp;D in agriculture.</p></li>
+</ol>
+<p>Affecting demand:</p>
+<ol>
+<li><p>strong income growth in China and India;</p></li>
+<li><p>biofuel production in the USA and Europe;</p></li>
+<li><p>preventive imports surges;</p></li>
+<li><p>speculation in financial markets.</p></li>
+</ol>
+<p>[label=hunger-ECOWAS]</p>
+
+
+<h3 id="empirical-relevance-of-the-model">Empirical relevance of the model</h3>
+
+
+<h4 id="food-adequacy-x_it-and-undernourishment-gamma_it-in-ecowas-and-asean">Food adequacy <span class="math"><em>x</em><sub><em>i</em><em>t</em></sub></span> and undernourishment <span class="math">Γ<sub><em>i</em><em>t</em></sub></span> in ECOWAS and ASEAN</h4>
+<p><br /><span class="math">$$\log\left(\tfrac{\Gamma_{it}}{1-\Gamma_{it}}\right) = d_i^* - b_f\log x_{it} +  \epsilon_{it}$$</span><br /></p>
+<p>&lt;1&gt;<span>ECOWAS countries<br /><embed src="fig-Regression-adjusted-ECOWAS12.eps" /><br /> </span> &lt;2&gt;<span>ASEAN countries<br /><embed src="fig-Regression-adjusted-ASEAN.eps" /> </span></p>
+
+
+<h3 id="alternative-scenarios">Alternative scenarios</h3>
+<dl>
+<dt>1</dt>
+<dd><p>Baseline</p>
+</dd>
+<dt>2</dt>
+<dd><p>Increased risk aversion, from <span class="math"><em>ρ</em> = 2.5</span> to <span class="math"><em>ρ</em> = 3.0</span></p>
+</dd>
+<dt>3</dt>
+<dd><p>Crisis expected to last <span class="math"><em>ψ</em> = 4</span> quarters, instead of <span class="math"><em>ψ</em> = 3</span></p>
+</dd>
+<dt>4</dt>
+<dd><p>Double the cost of storage, <span class="math"><em>ϕ</em> = 0.05</span></p>
+</dd>
+<dt>5</dt>
+<dd><p>Less severe crisis: <span class="math"><em>p</em><sub><em>g</em></sub><sup> * </sup> = 1.6</span> instead of 1.85</p>
+</dd>
+</dl>
+
+
+<h3 id="summary-statistics-for-other-scenarios">Summary statistics for other scenarios</h3>
+<p><span>*1<span>X[1c]</span>*1<span>&gt;X[1c]</span>*1<span>X[1c]</span>*1<span>&gt;X[1c]</span>*1<span>X[1c]</span></span></p>
+<p><span>*2<span>X[1c]</span>*2<span>&gt;X[1c]</span>*2<span>X[1c]</span>*2<span>&gt;X[1c]</span>*2<span>X[1c]</span></span></p>
+<p>to 1.05 &amp; &amp;</p>
+<p>Scenario 1: &amp; Scenario 2: &amp; Scenario 3: &amp; Scenario 4: &amp; Scenario 5:<br />(baseline) &amp; <span class="math"><em>ρ</em> = 3.0</span> &amp; <span class="math"><em>ψ</em> = 4</span> &amp; <span class="math"><em>ϕ</em> = 0.05</span> &amp; <span class="math"><em>P</em><sub><em>H</em></sub> = 1.60</span><br /></p>
+<p><br /> <span>Variable</span> &amp; <span>Stat.</span> &amp;</p>
+<p><span class="math"><em>p</em><sub><em>L</em></sub></span> &amp; <span class="math"><em>p</em><sub><em>H</em></sub></span> &amp; <span class="math"><em>p</em><sub><em>L</em></sub></span> &amp; <span class="math"><em>p</em><sub><em>H</em></sub></span> &amp; <span class="math"><em>p</em><sub><em>L</em></sub></span> &amp; <span class="math"><em>p</em><sub><em>H</em></sub></span> &amp; <span class="math"><em>p</em><sub><em>L</em></sub></span> &amp; <span class="math"><em>p</em><sub><em>H</em></sub></span> &amp; <span class="math"><em>p</em><sub><em>L</em></sub></span> &amp; <span class="math"><em>p</em><sub><em>H</em></sub></span></p>
+<p><br />Tax rate, % &amp;</p>
+<p>&amp;</p>
+<p><br />Initial stock &amp;</p>
+<p>&amp;</p>
+<p><br />End stock &amp;</p>
+<p>&amp;</p>
+<p><br />Food price &amp;</p>
+<p>&amp;</p>
+<p><br />Hunger rate, % &amp;</p>
+<p>&amp;</p>
+<p><br /></p>
+<p>[label=frame-export-restrictions]</p>
+
+
+<h3 id="the-effects-of-export-restrictions-on-rice-prices">The effects of export restrictions on rice prices</h3>
+<p><embed src="fig_rice-price-and-restrictions.eps" /></p>
+</body>
+</html>

@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Essays on the World Food Crisis: An Assessment of Policy Options</title>
+
+	<meta name="description" content="PhD Dissertation Exam">
+	<meta name="author" content="Randall Romero-Aguilar">
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/serif.css" id="theme">
+	<link rel="stylesheet" href="plugin/presentable/presentable.min.css">
+
+	<!-- Code syntax highlighting -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement( 'link' );
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName( 'head' )[0].appendChild( link );
+	</script>
+
+	<!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+
+<div class="reveal">
+
+	<!-- Any section element inside of this container is displayed as a slide -->
+	<div class="slides">
+
+
+		<section data-background="figures/pic-silos3.jpg" class="essay-title" id="cover-essay3">
+			<h2>Sustainability of Regional Food Reserves When Default Is Possible</h2>
+			<p style="text-align: right; padding-right: 1em">	By <a href="http://randall-romero.com" style="color: white">Randall S. Romero-Aguilar</a> and Mario J. Miranda</p>
+			<p style="text-align: right; padding-right: 1em"><small>AAEA Meetings, San Francisco, July 27, 2015</small></p>
+		</section>
+
+
+		<!--=========================================================================================================-->
+		<section>
+			<h2>The case for joint reserves</h2>
+			<p>&nbsp;</p>
+
+			<table style="font-size: 80%; "  >
+
+				<tr  style=" border: solid #F0F1EB 10px; color: white">
+					<td style="background-color: #1a54a1; border: solid #F0F1EB 10px; text-align: center; width: 50%">
+						The promises
+					</td>
+					<td style="background-color: darkred; border: solid #F0F1EB 10px; text-align: center; width: 50%;">
+						The challenges
+					</td>
+
+				</tr>
+				<tr  style=" border: solid #F0F1EB 10px;">
+					<td style="background-color: #bee4fd; border: solid #F0F1EB 10px;">
+						<ul>
+							<li style="margin-bottom: 14px">risk diversification</li>
+							<li style="margin-bottom: 14px">economies of scale</li>
+							<li style="margin-bottom: 14px">independent management, free of political influence</li>
+							<li style="margin-bottom: 14px">provision of forum for collective agreements</li>
+						</ul>
+					</td>
+					<td style="background-color: #ffcaca; border: solid #F0F1EB 10px;">
+						<ul>
+							<li style="margin-bottom: 24px">implementation procedures</li>
+							<li style="margin-bottom: 24px">financial sustainability</li>
+							<li style="margin-bottom: 24px">implications for free trade</li>
+							<li style="margin-bottom: 24px">commitment of member countries</li>
+
+						</ul>
+					</td>
+
+				</tr>
+			</table>
+		</section>
+
+		<!--=========================================================================================================-->
+		<section>
+			<section>
+				<h2>The Model</h2>
+				<ul>
+					<li>Two countries</li>
+					<li>No trade</li>
+					<li>One grain</li>
+					<li>Countries share a fraction of their grain</li>
+					<li>Objective: maximize lifetime utility of representative agent</li>
+					<li>Dynamic game with limited commitment</li>
+					<li>Nash-Markov sub-game perfect equilibria</li>
+				</ul>
+			</section>
+
+			<section>
+				<h3>A country in autarky</h3>
+				<p>Availability</p>
+								\(\newcommand{\DEF}[2]{\underset{\scriptsize\color{grey}{\text{#1}}}{#2}}\)
+				\[\DEF{production}{\tilde{q}_i} + (1-\phi)\DEF{past storage}{s_{i,-1}} \equiv \DEF{availability}{a_i} = \DEF{consumption}{c_i} + \DEF{storage}{s_i} \]
+
+				<br>
+				<p>Bellman equation</p>
+				\[ V\left(a\right) =  \max_{s\in [0,a]} \left\{u(a-s) + \delta E V\left(a'\right)\right\} \]
+				<p>subject to</p>
+				\[a' = (1-\phi)s + \tilde{q}'\]
+			</section>
+
+			<section>
+				<h3>A joint reserve</h3>
+				<p>Redistributing availabilities: country $B$ transfers $l = \psi(a_B - a_A)$ units of grain to country $A$</p>
+				<table style="font-size: 80%; "  >
+
+					<tr  style=" border: solid #F0F1EB 10px; color: white">
+						<td style="background-color: #1a54a1; border: solid #F0F1EB 10px; text-align: center; width: 50%">
+							Insurance contract
+						</td>
+						<td style="background-color: darkgreen; border: solid #F0F1EB 10px; text-align: center; width: 50%;">
+							Credit contract
+						</td>
+
+					</tr>
+					<tr  style=" border: solid #F0F1EB 10px;">
+						<td style="background-color: #bee4fd; border: solid #F0F1EB 10px;">
+							\[\hat{a}_A = (1-\psi)a_A + \psi a_B\]
+							<br>
+							\[\hat{a}_B = \psi a_A + (1-\psi)a_B\]
+						</td>
+						<td style="background-color: #caffca; border: solid #F0F1EB 10px;">
+							\[\hat{a}_A = (1-\psi)a_A + \psi a_B - l_{-1}\]
+							<br>
+							\[\hat{a}_B = \psi a_A + (1-\psi)a_B + l_{-1}\]
+						</td>
+					</tr>
+				</table>
+				<div class="fragment">
+					<p>If any country defaults, they remain in autarky forever </p>
+					<table style="font-size: 80%; "  >
+						<tr  style=" border: solid #F0F1EB 10px; color: white">
+							<td style="background-color: darkred; border: solid #F0F1EB 10px; text-align: center; width: 50%;">
+								Default
+							</td>
+						</tr>
+						<tr  style=" border: solid #F0F1EB 10px;">
+							<td style="background-color: #ffcaca; border: solid #F0F1EB 10px;">
+								\[\hat{a}_A = a_A\]
+								<br>
+								\[\hat{a}_B = a_B\]
+							</td>
+						</tr>
+					</table>
+				</div>
+			</section>
+
+			<section>
+				<h3>A game of default</h3>
+				<br>
+				<table width="90%" class="game">
+					<tr>
+						<th colspan="2" rowspan="2" style="text-align: center; border-color: transparent">Insurance / <span style="color: red">Credit</span> game</th><th colspan="2" class="player">Country B</th>
+					</tr>
+					<tr><th class="strategy">Cooperate</th><th class="strategy">Default</th></tr>
+					<tr>
+						<th rowspan="2" class="player">Country A</th>
+						<th class="strategy-row">Cooperate</th>
+						<td class="payoff">$W^A(a_A,a_B\color{red}{, l}),W^B(a_A,a_B\color{red}{, l}) $</td>
+						<td class="payoff">$V^A(a_A), V^B(a_B) - \DEF{stigma}{\sigma}$</td>
+					</tr>
+					<tr>
+						<th class="strategy-row">Default</th>
+						<td class="payoff">$V^A(a_A) - \sigma, V^B(a_B)$</td>
+						<td class="payoff">$V^A(a_A) - \sigma, V^B(a_B) - \sigma$</td>
+					</tr>
+				</table>
+				<p>where</p>
+				\[\DEF{value of cooperating}{W(a_A,a_B\color{red}{, l})}  =
+					\max_{s\in [0,\hat{a}]} \left\{u(\hat{a}-s) +
+						\delta E \DEF{game payoff}{U\left(a'_A,a'_B\color{red}{, l}\right)}\right\}\]
+			</section>
+
+			<section>
+				<h3>Solving the game</h3>
+				<p>Numerical solution builds on CompEcon's <i>gamesolve</i>:</p>
+				<ul>
+					<li>to allow discrete states</li>
+					<li>to allow discrete actions</li>
+				</ul>
+				<p>Approximation algorithm</p>
+				<ol start="0">
+					<li>Discretize the production shocks</li>
+					<li>Compute the value of autarky $V$</li>
+					<li>Guess $W^A$ and $W^B$, using Chebyshev polynomials</li>
+					<li>Get the payoffs $U^A$ and $U^B$ by solving the discrete game</li>
+					<li>Update $W^A$ and $W^B$ </li>
+					<li>Iterate steps 3 and 4 until convergence</li>
+				</ol>
+			</section>
+
+			<section>
+				<h3>Baseline parameters</h3>
+				<br>
+				<table  align="center" border="1" cellpadding="1" cellspacing="1" style="width: 75%; font-size:60%;">
+					<thead>
+					<tr>
+						<th>Parameter</th>
+						<th>Description</th>
+						<th>Player 1</th>
+						<th>Player 2</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr><th> $\rho$  </th><th> relative risk aversion</th><td>2.00</td><td>2.00</td></tr>
+					<tr><th> φ  </th><th> marginal cost of storage</th><td>0.05</td><td>0.05</td></tr>
+					<tr><th> δ  </th><th> government discount factor</th><td>0.95</td><td>0.95</td></tr>
+					<tr><th> σ  </th><th> stigma</th><td>0.05</td><td>0.05</td></tr>
+					<tr><th> α  </th><th> beta distribution parameter </th><td>1.25</td><td>1.25</td></tr>
+					<tr><th> $\lambda$  </th><th> max. production shock </th><td>0.30</td><td>0.30</td></tr>
+					<tr><td>&nbsp;</td></tr>
+					<tr><th> ψ  </th><th> shared availability</th><td colspan="2" style="text-align: center">0.15</td></tr>
+					<tr><th> $\varrho$  </th><th> production correlation</th><td colspan="2" style="text-align: center">0.00</td></tr>
+					<tr></tr>
+					</tbody>
+				</table>
+			</section>
+		</section>
+
+		<!--=========================================================================================================-->
+		<section>
+			<section>
+				<h2>Main results</h2>
+				<p>Because bigger liabilities drive countries to default, reserve is more sustainable when</p>
+				<ul>
+					<li>production shocks are positively correlated</li>
+					<li>the shared fraction of availabilities is smaller</li>
+					<li>the reserve is operated as an insurance union rather than a credit union</li>
+				</ul>
+			</section>
+
+			<section>
+				<h3>Default regions</h3>
+				<img data-src="figures/default_region.png" width="50%"  align="right">
+				<ul>
+					<li>Default occurs when the required transfer exceeds a critical value $l^*$</li>
+					<li>In insurance contract, only the country with higher availability has incentive to default.</li>
+					<li>In credit contract, a debtor also has incentive to default if own availabily is low.</li>
+				</ul>
+			</section>
+
+			<section>
+				<h3>Time to default</h3>
+				<p>The reserve would last only a few years, regardless of contract.</p>
+				<img data-src="figures/survival.svg" width="80%">
+			</section>
+
+			<section>
+				<h3>Production correlation and time to default</h3>
+				<p>The reserve would be more stable for negatively-correlated production shocks.</p>
+				<img data-src="figures/survival-rho.svg" width="75%">
+			</section>
+
+			<section>
+				<h3>Default when sharing less grain</h3>
+				<p>When sharing less grain, insurance contract is very stable.</p>
+				<img data-src="figures/default_region_low_psi.png" width="45%" align="right">
+				<img data-src="figures/survival-psi.svg" width="45%" align="left">
+			</section>
+
+
+
+		</section>
+
+
+
+
+
+
+
+	</div>
+</div>
+
+
+
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+
+	// https://github.com/hakimel/reveal.js#configuration
+	Reveal.initialize({
+		// Full list of configuration options available at:
+		controls: false,
+		previewLinks: true,
+		// progress: true,
+		history: false,
+		center: false,
+		slideNumber: false,
+		margin: 0.05,
+		width: 1280, //1920, //960
+		height: 720, //1080, //700
+		minScale: 0.5,
+		maxScale: 3.0,
+		mouseWheel: true,
+		transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+		// Optional reveal.js plugins
+		dependencies: [
+			{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+			{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+			{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+			{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+			{ src: 'plugin/zoom-js/zoom.js', async: true },
+			{ src: 'plugin/notes/notes.js', async: true },
+			{ src: 'lib/js/classList.js' },
+			{ src: 'plugin/math/math.js', async: true },
+		]
+	});
+
+</script>
+
+</body>
+</html>
